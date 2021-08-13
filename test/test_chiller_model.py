@@ -1,4 +1,4 @@
-import chiller.chiller as chill
+import cooler.chiller as chill
 import pytest
 import warnings
 from icecream import ic

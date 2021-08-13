@@ -1,4 +1,4 @@
-from chiller import utilities as utils
+from cooler import utilities as utils
 from icecream import ic
 
 def test_moving_average_single_entry_list():

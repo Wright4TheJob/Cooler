@@ -1,4 +1,4 @@
-import chiller.contents as cont
+import cooler.contents as cont
 import pytest
 
 def test_initialization():

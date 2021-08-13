@@ -1,4 +1,4 @@
-import chiller.insulation as ins
+import cooler.insulation as ins
 import pytest
 
 #@pytest.fixture

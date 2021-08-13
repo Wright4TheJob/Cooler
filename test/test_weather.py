@@ -1,4 +1,4 @@
-import chiller.weather as weather
+import cooler.weather as weather
 import pytest
 from icecream import ic
 
