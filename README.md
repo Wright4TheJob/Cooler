@@ -3,6 +3,12 @@ Cooler is a set of python objects that can be used to simulate the transient the
 
 This approach is intended as a first approximation for a system behavior by only modeling gross heat flow. If your application requires spatial results, such as simulating freezing through a thick cross-section of material, more specialized software will be needed.
 
+# Installation
+For a standard installation, navigate in the terminal to the cloned or downloaded repository and run `<python setup.py install>` to perform the local installation
+
+To link the library so that edits to source code propagate, use
+`<pip install -e .>` from the repository directory instead.
+
 # Components
 ## Chiller
 This module simulates the performance of a cooling device moving heat from the inside of the container to the outside. Performance of any cooling device depends on design specifications and the relative temperatures of the hot and cold sides of the chiller. Performance curves for refrigeration-cycle heat pumps and thermo-electric elements (TECs) are available. The chiller in a simulation can be initialized using one or two data points from a specifications sheet.
