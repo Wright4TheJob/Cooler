@@ -94,12 +94,8 @@ def propogate_simulation_chilled_weather(insulator, contents, chiller, weather_f
 contents = cont.Water(mass=10, temp=-5)
 
 # Initialize Insulator
-box = ins.Box()
-box.set_insulation_k(1)
-box.set_height(1)
-box.set_width(1)
-box.set_length(1)
-box.set_insulation_thick(0.2)
+box = ins.Box_Uniform_Insulation(1, 1, 1, 0.2, 1)
+# Parameters: length, width, height, insulation thickness, insulation k value
 
 # Initialize Chiller
 tec = chill.Chiller()
